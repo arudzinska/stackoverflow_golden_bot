@@ -10,7 +10,7 @@ Golden Bot:
 
 ## Installation
 
-If you're using AWS ec2 instance with the Amazon AMI image, you can run `installs_aws_ec2.sh` for steps 1 and 2.
+If you're using AWS ec2 instance with the Amazon AMI image, you can run `installs_aws_ec2.sh` (with sudo) for steps 1 and 2.
 
 Manual steps:
 
