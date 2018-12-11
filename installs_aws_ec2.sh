@@ -10,5 +10,6 @@ sudo echo -e "#additional packages that may be useful\n[CentOS-extras]\nname=Cen
 sudo yum install -y google-chrome-stable
 
 wget -P /home/ec2-user/bin https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+unzip /home/ec2-user/bin/chromedriver_linux64.zip -d /home/ec2-user/bin/
 echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_profile
 source $HOME/.bash_profile
