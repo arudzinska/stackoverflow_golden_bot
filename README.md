@@ -1,7 +1,7 @@
 # Get the Stack Overflow Fanatic badge with Golden Bot :trophy:
 
 This bot will help you to get the golden badge on Stack Overflow... and hopefully teach you 
-something useful about Python!
+something about Python!
 
 Golden Bot:
 1) Visits Stack Overflow and logs in to your account.
@@ -10,10 +10,9 @@ Golden Bot:
 
 ## Installation
 
-If you're using AWS ec2 instance with the Amazon AMI image, you can run `installs_aws_ec2.sh`
-to install everything.
+If you're using AWS ec2 instance with the Amazon AMI image, you can run `installs_aws_ec2.sh` for steps 1 and 2.
 
-Manual steps for others:
+Manual steps:
 
 1. Install the Chrome browser.
 2. Install chromedriver (must be available in your `PATH`). Useful [tutorial for Linux](https://makandracards.com/makandra/29465-install-chromedriver-on-linux).
