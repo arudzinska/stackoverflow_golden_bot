@@ -29,7 +29,7 @@ checking the specified receiver mailbox.
 2. Setup a cronjob in your machine that will run the bot daily. Type `crontab -e` and add the following line at the end of the 
 file (will run the bot at 9am in the machine's timezone):
 
-```0 9 * * * source /home/ec2-user/.bash_profile && cd /home/ec2-user/stackoverflow_golden_bot/ && python golden_bot.py```
+```0 9 * * * source /home/ec2-user/.bash_profile && python /home/ec2-user/stackoverflow_golden_bot/golden_bot.py```
 
 **NOTE:** Adjust the paths in the above line. `.bash_profile` (or other similar file) should contain all the
 environmental variables.

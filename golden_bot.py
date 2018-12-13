@@ -1,3 +1,5 @@
+import os
+import sys
 import json
 import smtplib
 from selenium import webdriver
@@ -44,7 +46,7 @@ class StackOverflowBot:
 
 if __name__ == "__main__":
 
-    with open('config.json') as f:
+    with open(os.path.join(sys.path[0], 'config.json')) as f:
         creds = json.load(f)
 
     golden_bot = StackOverflowBot()
