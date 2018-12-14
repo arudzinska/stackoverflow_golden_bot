@@ -6,7 +6,9 @@ something about Python!
 Golden Bot:
 1) Visits Stack Overflow and logs in to your account.
 2) Views your profile and check the visits' consecutive days counter.
-3) Sends you an email with a report.
+3) Sends you an email with a report:
+
+![email screenshot](https://i.ibb.co/VN4nr3w/so-bot.png)
 
 ## Installation
 
