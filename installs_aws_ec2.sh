@@ -9,7 +9,7 @@ sudo echo -e "#released updates\n[CentOS-updates]\nname=CentOS-6 - Updates\nmirr
 sudo echo -e "#additional packages that may be useful\n[CentOS-extras]\nname=CentOS-6 - Extras\nmirrorlist=http://mirrorlist.centos.org/?release=6&arch=x86_64&repo=extras\ngpgcheck=1\ngpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6\n" >> /etc/yum.repos.d/centos.repo
 sudo yum install -y google-chrome-stable
 
-wget -P /home/ec2-user/bin https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
-unzip /home/ec2-user/bin/chromedriver_linux64.zip -d /home/ec2-user/bin/
+wget -P $HOME/bin https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+unzip $HOME/bin/chromedriver_linux64.zip -d $HOME/bin/
 echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_profile
 source $HOME/.bash_profile
