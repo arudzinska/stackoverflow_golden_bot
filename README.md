@@ -12,7 +12,9 @@ Golden Bot:
 
 ## Installation
 
-Follow these steps on any Linux server (if you're using AWS ec2 instance with the Amazon AMI image, you can run `installs_aws_ec2.sh` (with `sudo`) for steps 1 and 2):
+Follow these steps on any Linux server.
+
+<sup>If you're using AWS ec2 instance with the Amazon AMI image, you can run `installs_aws_ec2.sh` (with `sudo`) for steps 1 and 2. Run `source $HOME/.bash_profile` manually at the end!</sup>
 
 1. Install the Chrome browser.
 2. Install chromedriver (must be available in your `PATH`). Useful [tutorial for Linux](https://makandracards.com/makandra/29465-install-chromedriver-on-linux).
