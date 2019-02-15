@@ -35,7 +35,6 @@ class StackOverflowBot:
         self.driver.find_element_by_class_name('my-profile').click()
         self.driver.find_element_by_xpath("//div[@id='tabs']/a[1]").click()
         day_count = self.driver.find_element_by_xpath("//div[@id='days-visited']/div[2]").text.split()[3] + '/100'
-        # day_count = text_day_count.split()[3] + '/100'
         self.email_content = "Subject: Your favourite Stack Overflow bot\n\nYour current day count: " + day_count
 
     def send_mail(self, gmail, password, receiver):
