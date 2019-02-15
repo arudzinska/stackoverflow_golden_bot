@@ -3,7 +3,6 @@
 import os
 import sys
 import json
-import time
 import smtplib
 import timeout_decorator
 from selenium import webdriver
